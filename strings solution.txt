@@ -1,0 +1,94 @@
+	
+1.b
+2.c
+3.d
+4.c
+5.d
+6.c
+7.Strings is used to store character and the index starts from 0.
+Strings are immutable but with the help of StringBuilder and stringBuffer we can change the value of the strings
+8.Difference between == and isequalto() is one is operator and one is method.
+== helps to check the memory allocation where as isequalto() helps to check if the characters are equal when comparing
+9.
+package javaprograms;
+import java.util.*;
+
+public class strings {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		String a= sc.nextLine();
+		String b= sc.nextLine();
+		String c= sc.nextLine();
+		String a1= a.replaceAll("[aeiouAEIOU]", "*");
+		String b1= b.replaceAll("[BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz]", "@");
+		String c1= c.toLowerCase();
+		
+		
+	System.out.println(a1+b1+c1); 
+	
+
+}
+	}
+--------------------------------------------------
+10.package javaprograms;
+import java.util.*;
+
+public class strings {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		String a= sc.nextLine();
+		String b= sc.nextLine();
+		boolean k =a.contains(b);
+		
+	System.out.println(k); 
+	
+
+}
+	}
+
+-------------------------------------------------
+11.package javaprograms;
+import java.util.*;
+
+public class strings {
+
+	public static void main(String[] args) {
+		String S = "ramu";
+		char ch;
+		String rev="";
+		for(int i=0;i<S.length();i++) {
+			ch=S.charAt(i);
+			rev=ch+rev;
+			System.out.println(rev);
+			
+		}
+		if(S==rev) {
+			System.out.println("ANAGRAM");
+		}
+		else {
+			System.out.println("Not ANAGRAM");
+		}
+		
+	System.out.println(rev); 
+	
+
+}
+	}
+-----------------------------------------------
+12.package javaprograms;
+import java.util.*;
+
+public class strings {
+
+	public static void main(String[] args) {
+		String S = "GEEKS GOR GEEKS";
+		int index =6;
+		char ch = 'F';
+		String S1 = S.substring(0, index)+ch+S.substring(index+1);
+		System.out.println(S1);
+	
+
+}
+	}
