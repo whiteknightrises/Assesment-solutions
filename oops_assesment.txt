@@ -1,0 +1,4 @@
+1.https://github.com/whiteknightrises/java_program/blob/main/traffic_light.java
+2.https://github.com/whiteknightrises/java_program/blob/main/Person.java
+3.https://github.com/whiteknightrises/java_program/blob/main/Dog.java
+4.https://github.com/whiteknightrises/java_program/blob/main/Rectangle%20class
